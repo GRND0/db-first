@@ -1,0 +1,15 @@
+costruttore - STRING - VARCHAR(20)
+modello - STRING - VARCHAR(20)
+colore - STRING - VARCHAR(20)
+porte - INTEGER - TINYINT
+alimentazione - STRING - VARCHAR(15)
+stato - STRING - VARCHAR(10)
+immatricolazione - YEAR 
+condizione - STRING - VARCHAR(15)
+kilometraggio - INTEGER - TINYINT
+finanziabile - BOOLEAN - 
+pronta consegna - BOOLEAN
+unico proprietario - BOOLEAN
+passaggio incluso - BOOLEAN
+prezzo - SMALL - DECIMAL(6,2)  
+
