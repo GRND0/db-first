@@ -1,15 +1,15 @@
-costruttore - STRING - VARCHAR(20)
-modello - STRING - VARCHAR(20)
-colore - STRING - VARCHAR(20)
-porte - INTEGER - TINYINT
-alimentazione - STRING - VARCHAR(15)
-stato - STRING - VARCHAR(10)
-immatricolazione - YEAR 
-condizione - STRING - VARCHAR(15)
-kilometraggio - INTEGER - TINYINT
-finanziabile - BOOLEAN - 
-pronta consegna - BOOLEAN
-unico proprietario - BOOLEAN
-passaggio incluso - BOOLEAN
-prezzo - SMALL - DECIMAL(6,2)  
+costruttore - STRING - VARCHAR(20) - NOTNULL
+modello - STRING - VARCHAR(20) - NOTNULL
+colore - STRING - VARCHAR(20) - NOTNULL
+porte - INTEGER - TINYINT - NOTNULL
+alimentazione - STRING - VARCHAR(15) - NOTNULL
+stato - STRING - VARCHAR(10) - NOTNULL
+immatricolazione - YEAR - NULL
+condizione - STRING - VARCHAR(15) - NULL 
+kilometraggio - INTEGER - TINYINT - NOTNULL
+finanziabile - BOOLEAN - NOTNULL 
+pronta consegna - BOOLEAN - NULL
+unico proprietario - BOOLEAN - NULL 
+passaggio incluso - BOOLEAN - NOTNULL
+prezzo - SMALL - DECIMAL(6,2) - NOTNULL
 
